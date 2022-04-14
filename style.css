@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu-bar{
+    background-color: #34495e;
+}
+.menu-bar ul{
+   text-align: center;
+}
+.menu-bar ul li{
+     
+    margin-left: -4px;
+    display: inline-block;
+}
+.menu-bar ul li a{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 30px;
+    color: #e67e22;
+    text-decoration: none;
+    border-right: 2px solid #ecf0f1;
+}
+.menu-bar ul li:first-child a{
+    border-left:2px solid #ecf0f1;
+
+
+}
+.menu-bar ul li a:hover{
+    color: #e1b12c;
+    background-color: #7f8fa6;
+    text-decoration: underline;
+  
+
+}
